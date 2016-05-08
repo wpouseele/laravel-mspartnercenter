@@ -1,0 +1,45 @@
+{
+    "name": "wpouseele/php-mspartnercenter",
+    "description": "PHP package to use the Microsoft Partner Center Rest SDK",
+    "keywords": [
+        "wpouseele",
+        "laravel",
+        "Microsoft Partner Center",
+        "rest",
+        "sdk"
+    ],
+    "homepage": "https://github.com/wpouseele/php-mspartnercenter",
+    "support": {
+        "issues": "https://github.com/wpouseele/php-mspartnercenter/issues",
+        "source": "https://github.com/wpouseele/php-mspartnercenter"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wim Pouseele",
+            "email": "wim.pouseele@gmail.com",
+            "homepage": "http://wpouseele.github.io/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php" : ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wpouseele\\MSPartnerCenter\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wpouseele\\MSPartnerCenter\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
